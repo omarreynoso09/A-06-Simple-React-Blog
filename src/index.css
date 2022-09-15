@@ -1,0 +1,57 @@
+html {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background-color: rgb(38, 255, 0);
+  margin-right: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div {
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+img {
+  margin: 10px;
+  border-radius: 50%;
+}
+button {
+  margin: 10px;
+  padding: 1%;
+  border-radius: 25%;
+  font-size: larger;
+}
+h3,
+h2 {
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 2%;
+  text-transform: capitalize;
+}
+.userInfo {
+  font-size: larger;
+  color: blue;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.postCard {
+  font-size: 1.2rem;
+  font-family: monospace;
+  font-style: italic;
+}
+input {
+  margin: 1%;
+  padding: 2%;
+  font-size: 1.5rem;
+  color: green;
+  font-family: monospace;
+  text-transform: capitalize;
+}
